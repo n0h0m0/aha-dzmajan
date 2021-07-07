@@ -1,0 +1,36 @@
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: none;
+    margin: -.5em 0em 0;
+    padding: .2em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+
+.scroll{
+    overflow-y:scroll;
+    overflow-x:hidden;
+    height:100vh;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 12px;
+    color: green;
+}
+
+.card{
+    background-color: transparent !important;
+}
